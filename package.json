@@ -1,0 +1,26 @@
+{
+  "name": "opensource_tracker",
+  "version": "0.0.1",
+  "description": "repos tracker and analyzer",
+  "main": "index.js",
+  "dependencies": {
+    "github": "^0.2.4"
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0"
+  },
+  "scripts": {
+    "lint": "jshint **.js",
+    "start": "npm run lint && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NorthImpact/opensource_tracker.git"
+  },
+  "author": "gpestana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NorthImpact/opensource_tracker/issues"
+  },
+  "homepage": "https://github.com/NorthImpact/opensource_tracker"
+}
