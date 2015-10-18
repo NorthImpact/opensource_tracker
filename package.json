@@ -4,7 +4,7 @@
   "description": "repos tracker and analyzer",
   "main": "index.js",
   "dependencies": {
-    "github": "^0.2.4"
+    "request": "^2.65.0"
   },
   "devDependencies": {
     "jshint": "^2.8.0"

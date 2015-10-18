@@ -1,3 +1,8 @@
-var GitHubApi = require('github');
+var github = require('./src/github');
 
-console.log('somethinbg')
+
+//subscribe to github issues
+
+github.pubsub('subscribe', 'issues');
+//github.webhook('unsubscribe', 'issues');
+
